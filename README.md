@@ -7,5 +7,9 @@ You can recreate the experiment by booting from https://github.com/scanlime/egg/
 
 Won't quite work on a real PC, on account of using paravirtualized interfaces for video and mouse.
 
+Apparently works fine in QEMU, with both video and mouse!
+
+`qemu-system-i386 -vga vmware -fda pong/pong-hosted11.img`
+
 -m
 
